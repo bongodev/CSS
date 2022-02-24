@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    background: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+img {
+    height: 100%;
+    padding: 10px;
+}
+
+.main-container {
+    margin-top: 75px;
+    padding: 0 10px;
+}
+
+.hero {
+    background-image: url('./images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+    font-size: 30px;
+}
+
+.about-me, .tech-stack {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #D57617
+}
+
+.footer {
+    text-align: center;
+    background: #555;
+    padding: 15px;
+    color: #D57617;
+}
